@@ -5,10 +5,16 @@
   "author": "atanda0x",
   "license": "MIT",
   "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "dotenv": "^16.0.3",
     "ethereum-waffle": "^3.4.4",
-    "hardhat": "^2.12.3"
+    "hardhat": "^2.12.3",
+    "hardhat-contract-sizer": "^2.6.1",
+    "hardhat-deploy": "^0.11.22",
+    "hardhat-waffle": "^0.0.1-security"
   },
   "devDependencies": {
+    "@chainlink/contracts": "^0.5.1",
     "@ethersproject/abi": "^5.4.7",
     "@ethersproject/providers": "^5.4.7",
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
@@ -20,8 +26,8 @@
     "@typechain/hardhat": "^6.1.2",
     "chai": "^4.2.0",
     "ethers": "^5.4.7",
-    "hardhat-gas-reporter": "^1.0.8",
-    "solidity-coverage": "^0.8.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.2",
     "typechain": "^8.1.0"
   }
 }

@@ -1,10 +1,10 @@
-require("@nomicfoundation/hardhat-toolbox");
-require("@ethersproject/abi");
-require("@ethersproject/providers");
-require("@typechain/hardhat");
-require("@typechain/ethers-v5");
-require("@typechain/hardhat");
-require("@nomiclabs/hardhat-ethers")
+require("@nomiclabs/hardhat-etherscan");
+require("solidity-coverage");
+require("hardhat-deploy");
+require("hardhat-contract-sizer");
+require("dotenv").config();
+require("hardhat-gas-reporter");
+require("@nomiclabs/hardhat-waffle")
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
