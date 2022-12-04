@@ -85,7 +85,7 @@ contract PolygonLottery is VRFConsumerBaseV2, AutomationCompatibleInterface {
      * 3. The contract has ETH.
      * 4. Implicity, your subscription is funded with LINK.
      */
-    function checkUpkeep(
+    function checkUpkeep (
         bytes memory /* checkData */
     )
         public
